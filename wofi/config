@@ -1,0 +1,7 @@
+width = 20%
+height = 40%
+allow_images = true
+image_size = 23
+prompt = search
+normal_window = true
+no_actions = true

@@ -1,0 +1,49 @@
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
+
+*{
+    font-family: sans-serif;
+}
+
+window {
+    background-color: rgba(82, 82, 82, 0.61)
+}
+
+#input {
+    padding: 10px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgba(82, 82, 82, 0.61)
+}
+
+#outer-box {
+    padding: 10px;
+    background-color: rgba(82, 82, 82, 0.61)
+}
+
+#text {
+    color: white;
+}
+
+#scroll {
+    background-color: rgba(82, 82, 82, 0.61)
+}
+
+#entry {
+    padding: 10px;
+    background-color: rgba(82, 82, 82, 0.61)
+}
+
+#entry:selected {
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+#img{
+    padding-right: 7px;
+}

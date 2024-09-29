@@ -1,0 +1,53 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(77, 77, 77, 0.671);
+}
+
+button {
+    border-radius: 10px;
+    border-color: rgba(36, 36, 36, 0.918);
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	background-color:rgba(36, 36, 36, 0.918);
+	border-style: solid;
+	border-width: 3px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 10px; 
+}
+
+button:active, button:hover {
+	background-color: rgba(65, 65, 65, 0.918);
+	border-color: #ffffff;
+	background-size: 28%;
+	transition-duration: 0.5s;
+}
+
+#lock {
+    background-image: image(url("/home/chris/.config/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/home/chris/.config/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/home/chris/.config/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/home/chris/.config/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/chris/.config/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/chris/.config/wlogout/icons/reboot.png"));
+}
